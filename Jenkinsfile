@@ -1,6 +1,4 @@
-plugins {
-    gradlew
-}
+
 node {
     stage('Checkout') {
         echo 'Checkout....'
