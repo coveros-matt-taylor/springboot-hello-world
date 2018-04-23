@@ -6,8 +6,8 @@ node {
     }
     stage('Build') {
         // sh './gradlew build && java -jar build/libs/gs-spring-boot-0.1.0.jar'
-        sh 'sudo ./gradlew --version'
         echo 'Building....'
+        sh 'sudo ./gradlew --version'
     }
     stage('Test') {
         echo 'Building....'
